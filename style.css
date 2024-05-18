@@ -1,0 +1,99 @@
+@font-face {
+    font-family: logo-font;
+    src: url(./fonts/Norse-Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+h3{
+    line-height: 30px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+.wrapper .left {
+    width: 40vw;
+    background-size: cover;
+    position: relative;
+}
+.wrapper .right{
+    width: 60vw;
+}
+    
+.wrapper .left .logo {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+
+}
+.wrapper .left .refpix {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    color: white;
+    
+}
+.refpix p, .refpix a {
+    color: white;
+    text-decoration: none;
+}
+.logo p {
+    font-family: logo-font;
+    font-size: 100px;
+    color: white;
+}
+.wrapper .right .register{
+    background-color: #f1f1f1;
+    padding: 50px 20px 80px 20px;
+    margin: 0;
+}
+.wrapper .right .intro{
+    background-color: #f1f1f1;
+    padding: 100px 20px 50px 20px;
+    
+}
+.wrapper .right .form{
+    padding: 20px;
+}
+.wrapper .form .field{
+    display: flex;
+    gap: 50px;
+    padding: 20px 0;
+}
+.wrapper .right .btn {
+    font-size: 1rem;
+    padding: 10px;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    margin-bottom: 20px;
+}
+.wrapper .right .btn:invalid{
+    border-color: red;
+}
+input:focus{
+    box-shadow: 1px 1px blue;
+}
+
+.wrapper .register a{
+    color: #596D48;
+    text-decoration: none;
+}

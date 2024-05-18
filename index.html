@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="left" style="background-image: url(./images/forest.jpg);">
+        <div class="logo">
+          <img src="./images/odin-lined-logo.png" alt=""  height="120px"/>
+          <p>ODIN</p>
+        </div>
+        <div class="refpix">
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a>
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a>
+        </div>
+      </section>
+      <section class="right">
+        <div class="intro grey">
+          <h3>
+            This is not a real online service. But you know you need something
+            like this in your life to help you realize your deepest dreams.</h3>
+          <h3>Sign Up <span>now</span> and get started</h3>
+          <h3>You know you want to.</h3>
+        </div>
+        <div class="form">
+          <h3>Let's do this!</h3>
+
+          <form action="/" method="GET">
+            <div class="field">
+              <div class="entry">
+                <label for="fname">FIRST NAME</label><br />
+                <input type="text" id="fname" , name="first_name" />
+              </div>
+              <div>
+                <label for="lname">LAST NAME</label><br />
+                <input type="text" id="lname" , name="last_name" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="entry">
+                <label for="mail">EMAIL</label><br />
+                <input type="email" id="mail" , name="email" />
+              </div>
+              <div>
+                <label for="call">PHONE NUMBER</label><br />
+                <input type="number" id="call" , name="phone" />
+              </div>
+            </div>
+            <div class="field">
+              <div class="entry">
+                <label for="pwd">PASSWORD</label><br />
+                <input type="password" id="pwd" , name="password" />
+              </div>
+              <div>
+                <label for="cpwd">CONFIRM PASSWORD</label><br />
+                <input type="password" id="cpwd" , name="confirm_password" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="register">
+          <button type="submit" class="btn">Create Account</button>
+          <p>
+            Already have an account?
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Log in</a>
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
